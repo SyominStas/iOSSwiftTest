@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17100063688126245B047E5F /* ACTChatsCollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100E3BE3624423BDAACB28 /* ACTChatsCollectionViewDataSource.swift */; };
+		171000D52759090A68A8554C /* ACTChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100E3DB8D0D3257D8942D9 /* ACTChat.swift */; };
+		17100132073D84CFC0B1C936 /* ACTLoadingWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171001C2E045F924E9DE8602 /* ACTLoadingWireframe.swift */; };
+		1710013F929D0228E3DB2A6F /* ACTApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171003FE7B9FEE6452C774ED /* ACTApiManager.swift */; };
+		171001D2200EBB6CE3DB30F6 /* ACTChatsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100A915CB3274F2EC70972 /* ACTChatsWireframe.swift */; };
+		171001E5E6AAC13C615A2C7A /* ACTAppDelendencies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171001B4484C3A558C0AD2FB /* ACTAppDelendencies.swift */; };
+		1710020B0CD3C0395C7A41ED /* ACTChatsUserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171007670C335AC34C0DD5F2 /* ACTChatsUserInterface.swift */; };
+		171002C72E720A835CF93959 /* ACTChatsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100F45E0CCFF2A9909AE2F /* ACTChatsInteractor.swift */; };
+		171003E7E69FCF5F1F52EDFA /* ACTChatsInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100DD19821FCC115C50DBA /* ACTChatsInteractorIO.swift */; };
+		171004DFA538B891664E46A1 /* ACTChatsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710062AAA8C134AA6383255 /* ACTChatsCell.swift */; };
+		17100599E4FB180DD8B74F1D /* ACTImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100AA7BA9A3B3FAC6D9188 /* ACTImage.swift */; };
+		171005DA5A1E2096A6C21F29 /* ACTColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710021CE0D3FC61A79505FA /* ACTColor.swift */; };
+		17100668E5BD0E2E83535DEB /* ACTChatsCollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100C4D3B20759D9BA03923 /* ACTChatsCollectionViewDelegate.swift */; };
+		171006FBC608B9A06B88793F /* ACTChatsDiscplayItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710080466E2BE3649BA09F4 /* ACTChatsDiscplayItem.swift */; };
+		171007B136FA9756AA139338 /* ACTLoadingModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171007A358B3306835CD3963 /* ACTLoadingModuleInterface.swift */; };
+		171007E0EEB4BA9628577BD3 /* ACTChatsCollector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171000CEFAE2468422361FE9 /* ACTChatsCollector.swift */; };
+		1710093E539D8BC360403A5E /* ACTString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171004AA37D24CBE72AA9F09 /* ACTString.swift */; };
+		1710098A8E140FC72134CDC9 /* ACTStorybord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710080A56539A8AA5C42197 /* ACTStorybord.swift */; };
+		171009C4694C9FEC727681C2 /* ACTChatsModuleInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710097BAF3C7B751A1B8148 /* ACTChatsModuleInterface.swift */; };
+		17100B18EF5AB2FB842406CB /* ACTShowUpTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171005C613FE5C5F5352AAA1 /* ACTShowUpTransition.swift */; };
+		17100B7CB6033C5B7D34C037 /* ACTChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17100E91E1FDD8450ED9FF19 /* ACTChatsPresenter.swift */; };
+		17100CA8A3826B1535AC1173 /* ACTChatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710050FC518E23C0ABE25CE /* ACTChatsViewController.swift */; };
+		17100DED680D3126D9F3DAB4 /* ACTLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171001307B495347039554F4 /* ACTLoadingViewController.swift */; };
+		17100EA2B5F1F637F3A4B2E1 /* ACTLoadingUserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171002A6A6C254FF9B48CA39 /* ACTLoadingUserInterface.swift */; };
+		17100ED624A1B27AC33645EF /* ACTLoadingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710085664A6ACE91D7B3D4D /* ACTLoadingPresenter.swift */; };
 		222D75C21BF1333E00C18944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D75C11BF1333E00C18944 /* AppDelegate.swift */; };
 		222D75C41BF1333E00C18944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D75C31BF1333E00C18944 /* ViewController.swift */; };
 		222D75C71BF1333E00C18944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D75C51BF1333E00C18944 /* Main.storyboard */; };
 		222D75C91BF1333E00C18944 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 222D75C81BF1333E00C18944 /* Assets.xcassets */; };
-		222D75CC1BF1333E00C18944 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D75CA1BF1333E00C18944 /* LaunchScreen.storyboard */; };
 		222D75D71BF1333E00C18944 /* ActTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D75D61BF1333E00C18944 /* ActTests.swift */; };
 		222D75E21BF1333E00C18944 /* ActUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D75E11BF1333E00C18944 /* ActUITests.swift */; };
+		222D75F21BF1337700C18944 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222D75F11BF1337700C18944 /* LaunchScreen.xib */; };
+		222D75F51BF1363B00C18944 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D75F41BF1363B00C18944 /* Launch Screen.storyboard */; };
+		222D75F71BF1378400C18944 /* ACTChatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222D75F61BF1378400C18944 /* ACTChatsCell.xib */; };
+		222D75F91BF1400500C18944 /* ACTHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D75F81BF1400500C18944 /* ACTHome.storyboard */; };
+		222D75FB1BF1FA2000C18944 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 222D75FA1BF1FA2000C18944 /* data.plist */; };
+		228095F4DF5A1245F99D8A9C /* Pods_Act.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB34DC76548871F8340D50B /* Pods_Act.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +64,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171000CEFAE2468422361FE9 /* ACTChatsCollector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsCollector.swift; sourceTree = "<group>"; };
+		171001307B495347039554F4 /* ACTLoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTLoadingViewController.swift; sourceTree = "<group>"; };
+		171001B4484C3A558C0AD2FB /* ACTAppDelendencies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTAppDelendencies.swift; sourceTree = "<group>"; };
+		171001C2E045F924E9DE8602 /* ACTLoadingWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTLoadingWireframe.swift; sourceTree = "<group>"; };
+		1710021CE0D3FC61A79505FA /* ACTColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTColor.swift; sourceTree = "<group>"; };
+		171002A6A6C254FF9B48CA39 /* ACTLoadingUserInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTLoadingUserInterface.swift; sourceTree = "<group>"; };
+		171003FE7B9FEE6452C774ED /* ACTApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTApiManager.swift; sourceTree = "<group>"; };
+		171004AA37D24CBE72AA9F09 /* ACTString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTString.swift; sourceTree = "<group>"; };
+		1710050FC518E23C0ABE25CE /* ACTChatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsViewController.swift; sourceTree = "<group>"; };
+		171005C613FE5C5F5352AAA1 /* ACTShowUpTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTShowUpTransition.swift; sourceTree = "<group>"; };
+		1710062AAA8C134AA6383255 /* ACTChatsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsCell.swift; sourceTree = "<group>"; };
+		171007670C335AC34C0DD5F2 /* ACTChatsUserInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsUserInterface.swift; sourceTree = "<group>"; };
+		171007A358B3306835CD3963 /* ACTLoadingModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTLoadingModuleInterface.swift; sourceTree = "<group>"; };
+		1710080466E2BE3649BA09F4 /* ACTChatsDiscplayItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsDiscplayItem.swift; sourceTree = "<group>"; };
+		1710080A56539A8AA5C42197 /* ACTStorybord.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTStorybord.swift; sourceTree = "<group>"; };
+		1710085664A6ACE91D7B3D4D /* ACTLoadingPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTLoadingPresenter.swift; sourceTree = "<group>"; };
+		1710097BAF3C7B751A1B8148 /* ACTChatsModuleInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsModuleInterface.swift; sourceTree = "<group>"; };
+		17100A915CB3274F2EC70972 /* ACTChatsWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsWireframe.swift; sourceTree = "<group>"; };
+		17100AA7BA9A3B3FAC6D9188 /* ACTImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTImage.swift; sourceTree = "<group>"; };
+		17100C4D3B20759D9BA03923 /* ACTChatsCollectionViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsCollectionViewDelegate.swift; sourceTree = "<group>"; };
+		17100DD19821FCC115C50DBA /* ACTChatsInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsInteractorIO.swift; sourceTree = "<group>"; };
+		17100E3BE3624423BDAACB28 /* ACTChatsCollectionViewDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsCollectionViewDataSource.swift; sourceTree = "<group>"; };
+		17100E3DB8D0D3257D8942D9 /* ACTChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChat.swift; sourceTree = "<group>"; };
+		17100E91E1FDD8450ED9FF19 /* ACTChatsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsPresenter.swift; sourceTree = "<group>"; };
+		17100F45E0CCFF2A9909AE2F /* ACTChatsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsInteractor.swift; sourceTree = "<group>"; };
 		222D75BE1BF1333E00C18944 /* Act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Act.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		222D75C11BF1333E00C18944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		222D75C31BF1333E00C18944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		222D75C61BF1333E00C18944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		222D75C81BF1333E00C18944 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		222D75CB1BF1333E00C18944 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		222D75CD1BF1333E00C18944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		222D75D21BF1333E00C18944 /* ActTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222D75D61BF1333E00C18944 /* ActTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActTests.swift; sourceTree = "<group>"; };
@@ -47,6 +101,14 @@
 		222D75DD1BF1333E00C18944 /* ActUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		222D75E11BF1333E00C18944 /* ActUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActUITests.swift; sourceTree = "<group>"; };
 		222D75E31BF1333E00C18944 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		222D75F11BF1337700C18944 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		222D75F41BF1363B00C18944 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		222D75F61BF1378400C18944 /* ACTChatsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACTChatsCell.xib; sourceTree = "<group>"; };
+		222D75F81BF1400500C18944 /* ACTHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ACTHome.storyboard; sourceTree = "<group>"; };
+		222D75FA1BF1FA2000C18944 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = data.plist; path = "../../../../Downloads/Тестовое задание/data.plist"; sourceTree = "<group>"; };
+		6DB34DC76548871F8340D50B /* Pods_Act.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Act.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF24FD0737F36AFA99653C3 /* Pods-Act.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Act.release.xcconfig"; path = "Pods/Target Support Files/Pods-Act/Pods-Act.release.xcconfig"; sourceTree = "<group>"; };
+		F79FB31983426EAF294E6A51 /* Pods-Act.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Act.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Act/Pods-Act.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				228095F4DF5A1245F99D8A9C /* Pods_Act.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +137,165 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		032D802F50A3BC51DD01E014 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6DB34DC76548871F8340D50B /* Pods_Act.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		171002C92FB81FA1B03DD735 /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				17100A915CB3274F2EC70972 /* ACTChatsWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		171005F6A0B5710166B5688C /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				171004AA37D24CBE72AA9F09 /* ACTString.swift */,
+				1710080A56539A8AA5C42197 /* ACTStorybord.swift */,
+				171003FE7B9FEE6452C774ED /* ACTApiManager.swift */,
+				17100E3DB8D0D3257D8942D9 /* ACTChat.swift */,
+				17100AA7BA9A3B3FAC6D9188 /* ACTImage.swift */,
+				1710021CE0D3FC61A79505FA /* ACTColor.swift */,
+				171005C613FE5C5F5352AAA1 /* ACTShowUpTransition.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		171006137268A8C8D88FCC03 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		1710079015E22760DE43ED91 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				17100932027490BB4A779F3C /* Chats */,
+				17100D4B91F4C00D5AB015BC /* Loading */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		171008A4A9BBCD4E1AB6F406 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				171008DE8AF8783A4963870F /* Cell */,
+				1710050FC518E23C0ABE25CE /* ACTChatsViewController.swift */,
+				171007670C335AC34C0DD5F2 /* ACTChatsUserInterface.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		171008DE8AF8783A4963870F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				222D75F61BF1378400C18944 /* ACTChatsCell.xib */,
+				1710062AAA8C134AA6383255 /* ACTChatsCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		171008E1E089760B19A49B91 /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				1710097BAF3C7B751A1B8148 /* ACTChatsModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		17100932027490BB4A779F3C /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				171008A4A9BBCD4E1AB6F406 /* User Interface */,
+				17100E08605811D4148BEECE /* Interactor */,
+				171002C92FB81FA1B03DD735 /* Wireframe */,
+				171008E1E089760B19A49B91 /* Module Interface */,
+				17100C89D35186A0CF634EF6 /* Models */,
+				17100EE8F3EB31B2D3D4F53F /* Presenter */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		171009DD53CBEE3A44AC6747 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				1710085664A6ACE91D7B3D4D /* ACTLoadingPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		17100AB05B83D37F42704D85 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				171001307B495347039554F4 /* ACTLoadingViewController.swift */,
+				171002A6A6C254FF9B48CA39 /* ACTLoadingUserInterface.swift */,
+			);
+			path = "User Interface";
+			sourceTree = "<group>";
+		};
+		17100C89D35186A0CF634EF6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1710080466E2BE3649BA09F4 /* ACTChatsDiscplayItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		17100C97E0A17600D8150C8C /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				171001C2E045F924E9DE8602 /* ACTLoadingWireframe.swift */,
+			);
+			path = Wireframe;
+			sourceTree = "<group>";
+		};
+		17100CDFCCC6DF1D46C8640A /* Module Interface */ = {
+			isa = PBXGroup;
+			children = (
+				171007A358B3306835CD3963 /* ACTLoadingModuleInterface.swift */,
+			);
+			path = "Module Interface";
+			sourceTree = "<group>";
+		};
+		17100D4B91F4C00D5AB015BC /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				17100C97E0A17600D8150C8C /* Wireframe */,
+				171009DD53CBEE3A44AC6747 /* Presenter */,
+				171006137268A8C8D88FCC03 /* Interactor */,
+				17100CDFCCC6DF1D46C8640A /* Module Interface */,
+				17100AB05B83D37F42704D85 /* User Interface */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		17100E08605811D4148BEECE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				17100F45E0CCFF2A9909AE2F /* ACTChatsInteractor.swift */,
+				17100DD19821FCC115C50DBA /* ACTChatsInteractorIO.swift */,
+				17100E3BE3624423BDAACB28 /* ACTChatsCollectionViewDataSource.swift */,
+				17100C4D3B20759D9BA03923 /* ACTChatsCollectionViewDelegate.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		17100EE8F3EB31B2D3D4F53F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				17100E91E1FDD8450ED9FF19 /* ACTChatsPresenter.swift */,
+				171000CEFAE2468422361FE9 /* ACTChatsCollector.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		222D75B51BF1333E00C18944 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +303,8 @@
 				222D75D51BF1333E00C18944 /* ActTests */,
 				222D75E01BF1333E00C18944 /* ActUITests */,
 				222D75BF1BF1333E00C18944 /* Products */,
+				6A03F89AD3C794837EA2D31C /* Pods */,
+				032D802F50A3BC51DD01E014 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +321,18 @@
 		222D75C01BF1333E00C18944 /* Act */ = {
 			isa = PBXGroup;
 			children = (
+				222D75FA1BF1FA2000C18944 /* data.plist */,
 				222D75C11BF1333E00C18944 /* AppDelegate.swift */,
 				222D75C31BF1333E00C18944 /* ViewController.swift */,
 				222D75C51BF1333E00C18944 /* Main.storyboard */,
 				222D75C81BF1333E00C18944 /* Assets.xcassets */,
-				222D75CA1BF1333E00C18944 /* LaunchScreen.storyboard */,
 				222D75CD1BF1333E00C18944 /* Info.plist */,
+				222D75F11BF1337700C18944 /* LaunchScreen.xib */,
+				222D75F41BF1363B00C18944 /* Launch Screen.storyboard */,
+				1710079015E22760DE43ED91 /* Screen */,
+				171005F6A0B5710166B5688C /* Global */,
+				222D75F81BF1400500C18944 /* ACTHome.storyboard */,
+				171001B4484C3A558C0AD2FB /* ACTAppDelendencies.swift */,
 			);
 			path = Act;
 			sourceTree = "<group>";
@@ -125,6 +355,15 @@
 			path = ActUITests;
 			sourceTree = "<group>";
 		};
+		6A03F89AD3C794837EA2D31C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F79FB31983426EAF294E6A51 /* Pods-Act.debug.xcconfig */,
+				DCF24FD0737F36AFA99653C3 /* Pods-Act.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +371,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 222D75E61BF1333E00C18944 /* Build configuration list for PBXNativeTarget "Act" */;
 			buildPhases = (
+				EB55DD9783B04DDB11587A80 /* Check Pods Manifest.lock */,
 				222D75BA1BF1333E00C18944 /* Sources */,
 				222D75BB1BF1333E00C18944 /* Frameworks */,
 				222D75BC1BF1333E00C18944 /* Resources */,
+				EED50103511F00CDD6114859 /* Embed Pods Frameworks */,
+				58598784E015CF8716F4AB77 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,8 +471,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222D75CC1BF1333E00C18944 /* LaunchScreen.storyboard in Resources */,
+				222D75F71BF1378400C18944 /* ACTChatsCell.xib in Resources */,
 				222D75C91BF1333E00C18944 /* Assets.xcassets in Resources */,
+				222D75F21BF1337700C18944 /* LaunchScreen.xib in Resources */,
+				222D75F91BF1400500C18944 /* ACTHome.storyboard in Resources */,
+				222D75F51BF1363B00C18944 /* Launch Screen.storyboard in Resources */,
+				222D75FB1BF1FA2000C18944 /* data.plist in Resources */,
 				222D75C71BF1333E00C18944 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +497,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58598784E015CF8716F4AB77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Act/Pods-Act-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB55DD9783B04DDB11587A80 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EED50103511F00CDD6114859 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Act/Pods-Act-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		222D75BA1BF1333E00C18944 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +552,31 @@
 			files = (
 				222D75C41BF1333E00C18944 /* ViewController.swift in Sources */,
 				222D75C21BF1333E00C18944 /* AppDelegate.swift in Sources */,
+				171004DFA538B891664E46A1 /* ACTChatsCell.swift in Sources */,
+				1710093E539D8BC360403A5E /* ACTString.swift in Sources */,
+				171002C72E720A835CF93959 /* ACTChatsInteractor.swift in Sources */,
+				171003E7E69FCF5F1F52EDFA /* ACTChatsInteractorIO.swift in Sources */,
+				171009C4694C9FEC727681C2 /* ACTChatsModuleInterface.swift in Sources */,
+				17100B7CB6033C5B7D34C037 /* ACTChatsPresenter.swift in Sources */,
+				17100CA8A3826B1535AC1173 /* ACTChatsViewController.swift in Sources */,
+				171001D2200EBB6CE3DB30F6 /* ACTChatsWireframe.swift in Sources */,
+				171006FBC608B9A06B88793F /* ACTChatsDiscplayItem.swift in Sources */,
+				1710020B0CD3C0395C7A41ED /* ACTChatsUserInterface.swift in Sources */,
+				171001E5E6AAC13C615A2C7A /* ACTAppDelendencies.swift in Sources */,
+				1710098A8E140FC72134CDC9 /* ACTStorybord.swift in Sources */,
+				1710013F929D0228E3DB2A6F /* ACTApiManager.swift in Sources */,
+				171000D52759090A68A8554C /* ACTChat.swift in Sources */,
+				17100063688126245B047E5F /* ACTChatsCollectionViewDataSource.swift in Sources */,
+				17100668E5BD0E2E83535DEB /* ACTChatsCollectionViewDelegate.swift in Sources */,
+				171007E0EEB4BA9628577BD3 /* ACTChatsCollector.swift in Sources */,
+				17100599E4FB180DD8B74F1D /* ACTImage.swift in Sources */,
+				171005DA5A1E2096A6C21F29 /* ACTColor.swift in Sources */,
+				17100DED680D3126D9F3DAB4 /* ACTLoadingViewController.swift in Sources */,
+				17100132073D84CFC0B1C936 /* ACTLoadingWireframe.swift in Sources */,
+				17100ED624A1B27AC33645EF /* ACTLoadingPresenter.swift in Sources */,
+				171007B136FA9756AA139338 /* ACTLoadingModuleInterface.swift in Sources */,
+				17100EA2B5F1F637F3A4B2E1 /* ACTLoadingUserInterface.swift in Sources */,
+				17100B18EF5AB2FB842406CB /* ACTShowUpTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +618,6 @@
 				222D75C61BF1333E00C18944 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		222D75CA1BF1333E00C18944 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				222D75CB1BF1333E00C18944 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -395,6 +706,7 @@
 		};
 		222D75E71BF1333E00C18944 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F79FB31983426EAF294E6A51 /* Pods-Act.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Act/Info.plist;
@@ -406,6 +718,7 @@
 		};
 		222D75E81BF1333E00C18944 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCF24FD0737F36AFA99653C3 /* Pods-Act.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Act/Info.plist;
@@ -482,6 +795,7 @@
 				222D75E81BF1333E00C18944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		222D75E91BF1333E00C18944 /* Build configuration list for PBXNativeTarget "ActTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +804,7 @@
 				222D75EB1BF1333E00C18944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		222D75EC1BF1333E00C18944 /* Build configuration list for PBXNativeTarget "ActUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +813,7 @@
 				222D75EE1BF1333E00C18944 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

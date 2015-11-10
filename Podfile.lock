@@ -1,0 +1,21 @@
+PODS:
+  - ObjectMapper (0.17)
+  - PureLayout (2.0.6)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - STPTransitions (0.0.3)
+
+DEPENDENCIES:
+  - ObjectMapper (= 0.17)
+  - PureLayout (~> 2.0.6)
+  - SDWebImage (~> 3.7)
+  - STPTransitions
+
+SPEC CHECKSUMS:
+  ObjectMapper: fa286b7cb5a398f1b0d8d64d0dd33fd1b307022c
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  STPTransitions: 3ebb022a8b83aabeb24f575c18aaf12be6d79939
+
+COCOAPODS: 0.39.0.beta.4
