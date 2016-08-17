@@ -17,10 +17,9 @@ class ACTChatsCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        self.picImageView.layer.masksToBounds = false
+        self.picImageView.layer.masksToBounds = true
         self.picImageView.layer.borderColor = UIColor.blackColor().CGColor
         self.picImageView.layer.cornerRadius = self.picImageView.frame.height / 2
-        self.picImageView.clipsToBounds = true
     }
 
 }

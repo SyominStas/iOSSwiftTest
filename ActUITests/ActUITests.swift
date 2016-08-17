@@ -31,6 +31,22 @@ class ActUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        let app = XCUIApplication()
+        
+        let firstCell = app.collectionViews.elementBoundByIndex(0).cells.elementBoundByIndex(0)
+        let start = firstCell.coordinateWithNormalizedOffset(CGVectorMake(0, 0))
+        let finish = firstCell.coordinateWithNormalizedOffset(CGVectorMake(0, -10))
+        start.pressForDuration(0, thenDragToCoordinate: finish)
+    }
+    
+    func testSecond() {
+        let app = XCUIApplication()
+        
+        let firstCell = app.collectionViews.elementBoundByIndex(0).cells.elementBoundByIndex(0)
+        let start = firstCell.coordinateWithNormalizedOffset(CGVectorMake(0, 0))
+        let finish = firstCell.coordinateWithNormalizedOffset(CGVectorMake(0, 10))
+        start.pressForDuration(0, thenDragToCoordinate: finish)
     }
     
 }
