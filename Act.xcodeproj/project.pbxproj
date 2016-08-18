@@ -32,7 +32,6 @@
 		17100DED680D3126D9F3DAB4 /* ACTLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171001307B495347039554F4 /* ACTLoadingViewController.swift */; };
 		17100EA2B5F1F637F3A4B2E1 /* ACTLoadingUserInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171002A6A6C254FF9B48CA39 /* ACTLoadingUserInterface.swift */; };
 		17100ED624A1B27AC33645EF /* ACTLoadingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710085664A6ACE91D7B3D4D /* ACTLoadingPresenter.swift */; };
-		2218AAC51D64899200F90388 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2218AAC41D64899200F90388 /* data.plist */; };
 		222D75C21BF1333E00C18944 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D75C11BF1333E00C18944 /* AppDelegate.swift */; };
 		222D75C41BF1333E00C18944 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222D75C31BF1333E00C18944 /* ViewController.swift */; };
 		222D75C71BF1333E00C18944 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D75C51BF1333E00C18944 /* Main.storyboard */; };
@@ -44,6 +43,7 @@
 		222D75F71BF1378400C18944 /* ACTChatsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222D75F61BF1378400C18944 /* ACTChatsCell.xib */; };
 		222D75F91BF1400500C18944 /* ACTHome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 222D75F81BF1400500C18944 /* ACTHome.storyboard */; };
 		228095F4DF5A1245F99D8A9C /* Pods_Act.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB34DC76548871F8340D50B /* Pods_Act.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		22A151A01D65CDBD0088E8E4 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 22A1519F1D65CDBD0088E8E4 /* data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +89,6 @@
 		17100E3DB8D0D3257D8942D9 /* ACTChat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChat.swift; sourceTree = "<group>"; };
 		17100E91E1FDD8450ED9FF19 /* ACTChatsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsPresenter.swift; sourceTree = "<group>"; };
 		17100F45E0CCFF2A9909AE2F /* ACTChatsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ACTChatsInteractor.swift; sourceTree = "<group>"; };
-		2218AAC41D64899200F90388 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		222D75BE1BF1333E00C18944 /* Act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Act.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		222D75C11BF1333E00C18944 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		222D75C31BF1333E00C18944 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +105,7 @@
 		222D75F41BF1363B00C18944 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		222D75F61BF1378400C18944 /* ACTChatsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ACTChatsCell.xib; sourceTree = "<group>"; };
 		222D75F81BF1400500C18944 /* ACTHome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ACTHome.storyboard; sourceTree = "<group>"; };
+		22A1519F1D65CDBD0088E8E4 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
 		6DB34DC76548871F8340D50B /* Pods_Act.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Act.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF24FD0737F36AFA99653C3 /* Pods-Act.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Act.release.xcconfig"; path = "Pods/Target Support Files/Pods-Act/Pods-Act.release.xcconfig"; sourceTree = "<group>"; };
 		F79FB31983426EAF294E6A51 /* Pods-Act.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Act.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Act/Pods-Act.debug.xcconfig"; sourceTree = "<group>"; };
@@ -321,6 +321,7 @@
 		222D75C01BF1333E00C18944 /* Act */ = {
 			isa = PBXGroup;
 			children = (
+				22A1519F1D65CDBD0088E8E4 /* data.plist */,
 				222D75C11BF1333E00C18944 /* AppDelegate.swift */,
 				222D75C31BF1333E00C18944 /* ViewController.swift */,
 				222D75C51BF1333E00C18944 /* Main.storyboard */,
@@ -332,7 +333,6 @@
 				171005F6A0B5710166B5688C /* Global */,
 				222D75F81BF1400500C18944 /* ACTHome.storyboard */,
 				171001B4484C3A558C0AD2FB /* ACTAppDelendencies.swift */,
-				2218AAC41D64899200F90388 /* data.plist */,
 			);
 			path = Act;
 			sourceTree = "<group>";
@@ -476,7 +476,7 @@
 				222D75F21BF1337700C18944 /* LaunchScreen.xib in Resources */,
 				222D75F91BF1400500C18944 /* ACTHome.storyboard in Resources */,
 				222D75F51BF1363B00C18944 /* Launch Screen.storyboard in Resources */,
-				2218AAC51D64899200F90388 /* data.plist in Resources */,
+				22A151A01D65CDBD0088E8E4 /* data.plist in Resources */,
 				222D75C71BF1333E00C18944 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
