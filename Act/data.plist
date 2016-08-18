@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>identifier</key>
+		<integer>0</integer>
+		<key>fullname</key>
+		<string>Transport</string>
+		<key>avatarURL</key>
+		<string>http://lorempixel.com/200/200/transport</string>
+		<key>message</key>
+		<string>Greatest properly off ham exercise all. Unsatiable invitation its possession nor off. All difficulty estimating unreserved increasing the solicitude.</string>
+		<key>unreadMessagesCount</key>
+		<integer>4</integer>
+		<key>sendingDate</key>
+		<date>2016-08-17T12:08:58Z</date>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>0</integer>
+		<key>fullname</key>
+		<string>Technics</string>
+		<key>avatarURL</key>
+		<string>http://lorempixel.com/200/200/technics</string>
+		<key>message</key>
+		<string>Greatest properly off ham exercise all. Unsatiable invitation its possession nor off. All difficulty estimating unreserved increasing the solicitude.</string>
+		<key>unreadMessagesCount</key>
+		<integer>4</integer>
+		<key>sendingDate</key>
+		<date>2016-08-17T12:08:58Z</date>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>0</integer>
+		<key>fullname</key>
+		<string>Fashion</string>
+		<key>avatarURL</key>
+		<string>http://lorempixel.com/200/200/fashion</string>
+		<key>message</key>
+		<string>Chatty design remark and his abroad figure but its. 
+</string>
+		<key>unreadMessagesCount</key>
+		<integer>4</integer>
+		<key>sendingDate</key>
+		<date>2016-08-17T12:08:58Z</date>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>0</integer>
+		<key>fullname</key>
+		<string>Nature</string>
+		<key>avatarURL</key>
+		<string>http://lorempixel.com/200/200/nature</string>
+		<key>message</key>
+		<string>Pianoforte reasonable as so am inhabiting</string>
+		<key>unreadMessagesCount</key>
+		<integer>4</integer>
+		<key>sendingDate</key>
+		<date>2016-08-17T12:08:58Z</date>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>0</integer>
+		<key>fullname</key>
+		<string>Abstract</string>
+		<key>avatarURL</key>
+		<string>http://lorempixel.com/200/200/abstract</string>
+		<key>message</key>
+		<string>Be at performed preferred determine collected. Him nay acuteness discourse listening estimable our law</string>
+		<key>unreadMessagesCount</key>
+		<integer>4</integer>
+		<key>sendingDate</key>
+		<date>2016-08-17T12:08:58Z</date>
+	</dict>
+	<dict>
+		<key>identifier</key>
+		<integer>0</integer>
+		<key>fullname</key>
+		<string>Animals</string>
+		<key>avatarURL</key>
+		<string>http://lorempixel.com/200/200/animals</string>
+		<key>message</key>
+		<string>Rapturous see performed tolerably departure end bed attention unfeeling</string>
+		<key>unreadMessagesCount</key>
+		<integer>4</integer>
+		<key>sendingDate</key>
+		<date>2016-08-17T12:08:58Z</date>
+	</dict>
+</array>
+</plist>
